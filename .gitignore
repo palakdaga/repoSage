@@ -1,0 +1,60 @@
+# Dependencies
+node_modules
+.npm
+
+# Next.js
+.next/
+out/
+
+# Production
+.env.local
+.env.production.local
+.env.development.local
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage
+.nyc_output
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env*.local
+
+# Cache
+.cache/
+.tmp/
+
+# Docker
+.docker/
+
+# Type checking
+.tscache/
+
+# Repo cache
+.repo_cache/
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/

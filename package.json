@@ -1,0 +1,36 @@
+{
+  "name": "reposage",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test:uat": "playwright test"
+  },
+  "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "groq-sdk": "^1.1.2",
+    "mermaid": "^11.13.0",
+    "next": "14.2.23",
+    "next-auth": "^4.24.13",
+    "ollama": "^0.6.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-markdown": "^10.1.0",
+    "redis": "^5.11.0",
+    "simple-git": "^3.33.0",
+    "weaviate-client": "^3.12.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^22.10.7",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@types/redis": "^4.0.11",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.23",
+    "typescript": "^5.7.3"
+  }
+}
